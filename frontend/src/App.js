@@ -11,10 +11,7 @@ import Navigation from '../src/components/template/Navigation'
 function App() {
   return (
     <div>
-      <Logo />
-      <Main />
-      <Navigation />
-      <Footer />
+      
 
     </div >
   );
