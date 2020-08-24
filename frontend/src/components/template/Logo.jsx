@@ -1,10 +1,11 @@
 import React from 'react';
 
-import './styles.css';
+import './Logo.css';
 
-function Logo () {
+function Logo(props){
+
     return(
-        <aside>
+        <aside className="logo">
             Logo
         </aside>
     );
