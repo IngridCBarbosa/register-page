@@ -8,7 +8,7 @@ function Main(props) {
 
     return(
         <Fragment>
-            <Header />
+            <Header {...props}/>
             <main className="content">
                 Conteúdo
             </main>
