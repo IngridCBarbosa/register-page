@@ -6,16 +6,16 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Logo from '../components/template/Logo';
 import Footer from '../components/template/Footer';
-import Main from '../components/template/Main';
+import Home from '../components/home/Home';
 import Navi from '../components/template/Navi';
 
-function App(){
-    return(
+function App() {
+    return (
         <div className="app">
-            <Logo/>
-            <Navi/>
-            <Main icon="home" title="Início" subtitle="Segundo projeto do capítulo de React"/>
-            <Footer/>
+            <Logo />
+            <Navi />
+            <Home />
+            <Footer />
         </div>
     );
 }
