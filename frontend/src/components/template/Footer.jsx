@@ -6,7 +6,10 @@ function Footer(props) {
 
     return(
         <footer className="footer">
-            Rodapé
+            <span>
+                Desenvolvido com <i className="fa fa-heart text-danger"></i> por aluna da
+                 <strong> Cod<span className="text-danger">3</span>r</strong>
+            </span>
         </footer>
     );
 }

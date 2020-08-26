@@ -9,7 +9,7 @@ function Header(props) {
             <h1 className="mt-3">
                 <i className={`fa fa-${props.icon}`}></i> {props.title}
             </h1>
-            <p className="lead text-muted">{props.subtitle}</p>
+            <p className="lead text-muted"><br/><br/>{props.subtitle}</p>
         </header>
     );
 }
