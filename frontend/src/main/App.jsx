@@ -6,17 +6,22 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Logo from '../components/template/Logo';
 import Footer from '../components/template/Footer';
-import Home from '../components/home/Home';
 import Navi from '../components/template/Navi';
+
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
 
 function App() {
     return (
-        <div className="app">
-            <Logo />
-            <Navi />
-            <Home />
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <div className="app">
+                <Logo />
+                <Navi />
+                <Routes />
+                <Footer />
+            </div>
+        </BrowserRouter>
+
     );
 }
 
